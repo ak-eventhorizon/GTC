@@ -66,6 +66,7 @@
 
 					<input type="text" name="login" placeholder="Логин в формате a.ivanov"> 
 					
+					<!-- Генерирует URL для получения информации с прокси -->
 					<button type="button" onclick="window.open('http://traffic.sgtcm.local/stat/'+login.value+'@SGTCM.LOCAL')">
 						Расход в текущем месяце
 					</button>
@@ -77,6 +78,7 @@
 						<option value="2018">2018</option>
 						<option value="2019">2019</option>
 						<option value="2020">2020</option>
+						<option value="2021">2021</option>
 					</select>
 
 					<select name="mounth" id="mounth">
@@ -95,8 +97,9 @@
 						<option value="12">Декабрь</option>
 					</select>
 
+					<!-- Генерирует URL для получения информации с прокси -->
 					<button type="button" onclick="window.open('http://gtc-proxy.sgtcm.local/squidreport/'+year.value+'/'+mounth.value+'/users/'+login.value+'_sgtcm.local/'+login.value+'_sgtcm.local.html')">
-						Статистика за указанный период
+						Статистика за период
 					</button>
 
 				</form>

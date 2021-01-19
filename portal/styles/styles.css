@@ -194,9 +194,9 @@
 	margin-top: 40px;
 }
 
-.submenu-print {
+/* .submenu-print {
 	min-width: 1220px;
-}
+} */
 
 .submenu-print > a {
 	display: flex;
@@ -239,7 +239,7 @@
 	justify-content: center;
 	background-color: rgb(62,190,239);
 	width: 14%;
-	min-width: 150px;
+	/* min-width: 150px; */
 	text-decoration: none;
 	border-radius: 10px;
 	box-shadow: 3px 3px 3px grey;
@@ -257,7 +257,7 @@
 .printers > a > p {
 	display: inline-block;
 	color: white;
-	font: 25px bold arial, sans-serif;
+	font: 20px bold arial, sans-serif;
 	line-height: 50px;
 }
 
