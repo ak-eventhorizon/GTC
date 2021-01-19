@@ -334,7 +334,7 @@
 }
 
 .submenu-ilo {
-	min-width: 1220px;
+	/* min-width: 1220px; */
 	display: flex;
 	justify-content: space-around;
 }
